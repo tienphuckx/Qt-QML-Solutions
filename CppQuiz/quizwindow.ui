@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuizWindow</class>
+ <widget class="QMainWindow" name="QuizWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1. Which data type is used to store boolean values in C++?</string>
+    </property>
+    <widget class="QRadioButton" name="ra_1_1_correct">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>bool</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_1_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>int</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_1_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>boolean</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_1_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>bit</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>780</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Evaluate the following.     (false &amp;&amp; true) || false || true</string>
+    </property>
+    <widget class="QRadioButton" name="ra_2_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_2_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_2_3_correct">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>false</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_2_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>780</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. Pick the correct statement about string objects in C++.</string>
+    </property>
+    <widget class="QRadioButton" name="ra_3_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>341</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>String objects have a dynamic size</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_3_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>341</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>String objects use extra memory than required.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_3_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>331</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>String objects have a static size</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_3_4_correct">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>381</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>String objects must be terminated by a null character(‘0’)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>780</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>4. What is the identifier given to string class to declare string objects?</string>
+    </property>
+    <widget class="QRadioButton" name="ra_4_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>321</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Any of the above can be used</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_4_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>171</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>String</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_4_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>201</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>STRING</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_4_4_correct">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>221</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>string</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>780</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>5. What is Character-Array?</string>
+    </property>
+    <widget class="QRadioButton" name="ra_5_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>261</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>array of alphabets</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_5_2_correct">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>201</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>array of characters</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_5_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>251</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>array of characters terminated by 0</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ra_5_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>311</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>array of well-defined characters</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="finishBtn">
+    <property name="geometry">
+     <rect>
+      <x>649</x>
+      <y>927</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Finish</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>890</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
