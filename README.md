@@ -1,2 +1,2 @@
-# hav_fun_with_qt_qml
-"Let's explore the power of Qt QML together through this list of simple examples." – Somebody (Okay, it’s me)
+# Step practice with Qt QML
+Let's explore the power of Qt QML together through this list of simple examples
